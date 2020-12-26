@@ -16,7 +16,7 @@ const Lang = Language.getString('system_stats');
 
 Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
     await message.sendMessage(
-        '```Whatsapp Is Active```\n\n*Version:* ```'+Config.VERSION+'```\n*Bot:* https://t.me/AsenaSupport\n*Telegram Channel:* https://t.me/WhatsAsena' , MessageType.text
+        '```Whatsapp Is Active```\n\n*Version:* ```'+Config.VERSION+'```\n*Bot:* https://fb.com\n*Whatsapp:* https://t.me/WhatsAsena' , MessageType.text
     );
 }));
 
